@@ -1,0 +1,32 @@
+.bpgm-container {
+    display: table;
+    width: 96%;
+    border: 1px solid #eaeaea;
+    padding: 2%;
+    margin: 20px 0;
+    box-sizing: initial;
+}
+
+.bpgm-container .bpgm-left {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.bpgm-container .bpgm-right {
+    display: table-cell;
+    vertical-align: top;
+    float: right;
+}
+
+.bpgm-container .bpgm-right img {
+    box-shadow: none;
+}
+
+.bpgm-message {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bpgm-custom-message {
+    margin: 0;
+}

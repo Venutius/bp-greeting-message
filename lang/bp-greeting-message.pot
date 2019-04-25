@@ -1,0 +1,139 @@
+# Copyright (C) 2016 BuddyPress Greeting Message
+# This file is distributed under the same license as the BuddyPress Greeting Message package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Greeting Message 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bp-greeting-"
+"message\n"
+"POT-Creation-Date: 2016-08-03 07:38:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-bp-greeting-message-frontend.php:109
+msgid "Good Morning"
+msgstr ""
+
+#: includes/class-bp-greeting-message-frontend.php:114
+msgid "Good Afternoon"
+msgstr ""
+
+#: includes/class-bp-greeting-message-frontend.php:119
+msgid "Good Evening"
+msgstr ""
+
+#: includes/class-bp-greeting-message-frontend.php:124
+msgid "Good Night"
+msgstr ""
+
+#. #-#-#-#-#  bp-greeting-message.pot (BuddyPress Greeting Message 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class-bp-greeting-message-settings.php:75
+msgid "BuddyPress Greeting Message"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:110
+msgid "Settings"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:123
+msgid "Message"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:124
+msgid "Set various options related to the messages."
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:128
+msgid "Parts of the day"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:129
+msgid "Choose when to display the greetings. [ eg. Good Morning Matt ! ]"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:141
+msgid "Enable Custom Message"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:142
+msgid "Check it to enable displaying Custom Message"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:148
+msgid "Custom Message Text"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:149
+msgid "Custom Message Text for displaying along with the greeting"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:152
+msgid "Thanks for being here. Have great day !"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:158
+msgid "Display"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:159
+msgid "Set various display options for the messages"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:163
+msgid "Display Position"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:164
+msgid "Choose where to display the greeting message."
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:251
+msgid "BuddyPress Greeting Message - Settings"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:303
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-bp-greeting-message-settings.php:335
+#: includes/class-bp-greeting-message-settings.php:344
+#: includes/class-bp-greeting-message.php:209
+#: includes/class-bp-greeting-message.php:218
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/lib/class-bp-greeting-message-admin-api.php:164
+msgid "Upload an image"
+msgstr ""
+
+#: includes/lib/class-bp-greeting-message-admin-api.php:164
+msgid "Use image"
+msgstr ""
+
+#: includes/lib/class-bp-greeting-message-admin-api.php:164
+msgid "Upload new image"
+msgstr ""
+
+#: includes/lib/class-bp-greeting-message-admin-api.php:165
+msgid "Remove image"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/bp-greeting-message/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display a Greeting Message on BuddyPress Activity Screen."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "xarbo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xarbo.com/"
+msgstr ""
