@@ -66,7 +66,7 @@ class BP_Greeting_Message_Frontend {
 			add_action( 'bp_after_group_activity_post_form', array( $this, 'get_greeting_html' ) );
 			add_action( 'bp_after_member_activity_post_form', array( $this, 'get_greeting_html' ) );
 		} else if ( isset( $display_position ) && $display_position == 'before-profile' ) {
-			add_action( 'template_notices', array( $this, 'get_greeting_html' ) );
+			//add_action( 'template_notices', array( $this, 'get_greeting_html' ) );
 			add_action( 'bp_before_profile_content', array( $this, 'get_greeting_html' ) );
 
 		}
@@ -98,7 +98,11 @@ class BP_Greeting_Message_Frontend {
 		$message_html .= '</div><!-- //bpgm-right -->';
 		$message_html .= '</div><!-- //bpgm-container -->';
 
-		echo $message_html;
+		if ( bp_is_user_profile() ) {
+			if ( bp_displayed_user_id() == get_current_user_id() ) echo $message_html;
+		} else {
+			echo $message_html;
+		}
 	}
 
 
