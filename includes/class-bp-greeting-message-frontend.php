@@ -98,7 +98,7 @@ class BP_Greeting_Message_Frontend {
 		$message_html .= '</div><!-- //bpgm-right -->';
 		$message_html .= '</div><!-- //bpgm-container -->';
 
-		if ( bp_is_user_profile() || is_user_activity() ) {
+		if ( bp_is_user_profile() || bp_is_user_activity() ) {
 			if ( bp_displayed_user_id() == get_current_user_id() ) echo $message_html;
 		} else {
 			echo $message_html;
